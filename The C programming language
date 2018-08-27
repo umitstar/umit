@@ -1,0 +1,11 @@
+1978年美国电话电报公司发布C语言，ANSI C（American National Standards Institute),UNIX系统用 C语言优秀的程序设计语言。
+MS C， Turbo C，AT & TC。
+ANSI C 32:= auto,break,case,char,const, continue, default, do , double, else, enum, extern, float, for,goto, if , int, long, register,return, short, signed, static, sizof, struct, switch, typedef,union, unsigned, void,volatile,while.
+Turbo C =  11 个  （asm,_cs, _ds,_es，_ss, cdecl, far,hugeinterrupt,near,pascal.）
+运算符=34.
+C++最新版本=Borland C++,Symantec C++, Microsoft VisualC++.
+【例1.1】
+main()
+{
+   printf("世界，您好！\n");
+   }
