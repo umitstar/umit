@@ -9,3 +9,25 @@ main()
 {
    printf("世界，您好！\n");
    }
+main 是主函数的函数名 必须有而且一个，
+printf函数吧输出的内容送到显示器去显示，可以程序中直接调用。
+【例1.2】
+#include<math.h>
+#include<stdio.h>
+main()
+  {
+     double x,s;
+     printf("input number:\n");
+     scanf("%lf",&x);
+     s=sin(x);
+     printf("sine of%lfis%lf\n",x,s);
+        }
+          scanf是输入函数
+          printf是输出函数
+          主函数体中又分为两部分，1.说明，2.执行
+          说明=变量的类型说明
+          scanf格式输入函数
+          printf格式函数
+          格式控制串=字符串（参数表）必须用双引号括起来（表示数据类型）
+          printf("sine of%lf is %lf\n",x,s); 这里%lf为格式字符=双精度浮点数处理
+          
