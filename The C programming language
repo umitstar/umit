@@ -31,3 +31,16 @@ main()
           格式控制串=字符串（参数表）必须用双引号括起来（表示数据类型）
           printf("sine of%lf is %lf\n",x,s); 这里%lf为格式字符=双精度浮点数处理
           
+          【例1.3】
+          int max(int a,int b);          /*函数说明*/
+          main()                         /*主函数*/
+          {
+             int x,y,z;                 /*变量说明*/
+             int max(int a,int b);      /*函数说明*/
+             printf("input two numbers:\n");
+             scanf("%d%d,&x,&y");        /*输入x,y值*/
+             z=max(x,y);                 /*调用max函数*/
+             printf("maxmum=%d,"z);      /*输出*/
+              }
+
+          
