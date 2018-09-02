@@ -43,4 +43,10 @@ main()
              printf("maxmum=%d,"z);      /*输出*/
               }
 
+             int max(int a,int b)        /*定义max 函数*/
+             {
+             if(a>b)returen a;else returen b; /*把结果返回主调函数*/
+             }
+             需要好好解释
+             
           
